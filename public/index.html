@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <title>Kudos</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+
+        </div>
+        <nav>
+            <div id='home'>Kudos</div>
+
+            <!-- <div id='give_kudos'>Give Kudos</div>-->
+
+            <div id='view_all'>View Kudos</div>
+
+        </nav>
+        <main>
+            <h2>Tiny Improvements</h2>
+
+            <section id="viewPage">
+                <!--View page that will display the existing kudos on the front page-->
+
+                <h3><i class="fa fa-user-o" aria-hidden="true"></i>Kudos</h3>
+                <form>
+                    <!-- <input id="name" type="text" />-->
+
+                    <button id="give_kudos" type="button" class="btn btn-primary btn-lg">Give Kudos</button><br><br>
+                    <div id="content"></div>
+                </form>
+            </section>
+            <section id="viewKudos">
+                <!--Another view page to display kudos messages-->
+                <h3><i class="fa fa-user-o" aria-hidden="true"></i>View Kudos</h3>
+                <form>
+                    <!-- <input id="name" type="text" />
+                  
+                  <button id="viewItem">View</button><br><br>-->
+                    <button id="give_kudos" type="button" class="btn btn-primary btn-lg">Give Kudos</button><br><br>
+                    <div id="content"></div>
+                </form>
+            </section>
+
+            <section id="giveKudos">
+                <h3><i class="fa fa-user-o" aria-hidden="true"></i>Give Kudos</h3>
+
+                <form>
+                    <!--<button class="dropbtn">Select Sender</button>-->
+                    <select id="sender">
+                        <option value=" " selected disabled>Select Sender</option>
+                        
+                        <option value="Jan">Jan</option>
+                        <option value="Vera">Vera</option>
+                        <option value="Julie">Julie</option>
+                        <option value="George">George</option>
+
+                    </select>
+                    <input id="kudos-title" placeholder="Type a Title" />
+                    <textarea id="kudos-body" size="30" placeholder="Type a Message" rows="3" cols="20"></textarea>
+                    <!--<button class="dropbtn">Select receiver</button>-->
+                    <select id="receiver">
+                        <option value=" " selected disabled>Select receiver</option>
+                        <option value="Amy">Amy</option>
+                        <option value="Vera">Vera</option>
+                        <option value="Cooper">Cooper</option>
+                        <option value="Lakes">Lakes</option><br><br><br><br>
+
+                    </select>
+                    <br><br><br><br>
+                    <button id="kudos-btn" type="button" class="btn btn-primary">Send Kudos</button>
+                    <div id="content"></div>
+                </form>
+
+            </section>
+        </main>
+    </div>
+    <script src="js/dom.js"></script>
+    <script src="js/app.js"></script>
+    </div>
+</body>
+
+</html>
