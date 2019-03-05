@@ -11,10 +11,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "heroku-prebuild": "cd client && yarn",
-    "heroku-postbuild": "node scripts/build.js"
-
+    "start": "node server.js"
+   
   },
   "repository": {
     "type": "git",
