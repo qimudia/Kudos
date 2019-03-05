@@ -9,8 +9,8 @@ body {
   width: 100%;
 
   border: 5px solid rgb(33, 122, 151);
-  border-style: solid ridge;
-   border-left-style: inset;
+  /*border-style: solid ridge;
+   border-left-style: inset;*/
   border-left-color: rgb(33, 122, 151);
   border-left-width: 100px;
 }
